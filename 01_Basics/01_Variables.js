@@ -19,3 +19,9 @@ console.log(accountId);
 
 
 console.table([accountId, accountEmail, accountCity, password, accountState])
+
+console.log("Hello World") //hello world
+
+s=6
+console.log(s) //6
+console.log(typeof(s))//number
