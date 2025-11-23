@@ -38,7 +38,23 @@ const myFunction = function(){
 //Memory Type
 //Stack (Primitive) String, Number, Boolearn, null, undefined, Symbol,BigInt
 
+let nameTwo = "Jiggg";
+let homeName = nameTwo;
 
+homeName = "JIGG"; //copy will be changed
 
+console.log(nameTwo);
+console.log(homeName);//homename is changed because memory is stored in temp memory
 
 //Heap (Non Primitive) Array, Objects, Functions
+
+let customerOne ={
+    id: 1,
+    mail: "jigg@gmail.com"
+}
+
+let customerTwo =customerOne
+customerTwo.id=2 //original value wii be changed in heap
+
+console.log(customerOne.id); 
+console.log(customerTwo.id); //id is same because heap has one memory only no temporary
