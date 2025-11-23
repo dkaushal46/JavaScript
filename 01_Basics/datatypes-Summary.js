@@ -31,3 +31,14 @@ let myObj ={
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+//+++++++++++++++++++++++++++++++++++++
+
+//Memory Type
+//Stack (Primitive) String, Number, Boolearn, null, undefined, Symbol,BigInt
+
+
+
+
+//Heap (Non Primitive) Array, Objects, Functions
