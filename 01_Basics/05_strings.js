@@ -11,3 +11,4 @@ console.log(gameName.length);
 console.log(gameName.toLowerCase());
 console.log(gameName.charAt(0));
 console.log(gameName.indexOf("L"));
+//
